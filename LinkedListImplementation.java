@@ -99,8 +99,7 @@ import java.util.function.Consumer;
                     return data;
                 }
 
-                public Node getNext()
-                {
+                public Node getNext() {
                     return next;
                 }
             }
