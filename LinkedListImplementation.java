@@ -38,6 +38,7 @@ import java.util.function.Consumer;
 
                 while (curr.next != null) {
                     curr = curr.next;
+                    // casts result + curr.data to a String and puts in result.
                     result = (String) (result + (curr.data + ", "));
                 }
                 return result;
